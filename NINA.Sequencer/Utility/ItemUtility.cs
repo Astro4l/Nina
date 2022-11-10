@@ -35,7 +35,7 @@ namespace NINA.Sequencer.Utility {
                 if (container != null && container.Target != null && container.Target.InputCoordinates != null && container.Target.DeepSkyObject != null) {
                     return new ContextCoordinates(
                         container.Target.InputCoordinates.Coordinates, 
-                        container.Target.Rotation,
+                        container.Target.PositionAngle,
                         container.Target.DeepSkyObject.ShiftTrackingRate);
                 } else {
                     return RetrieveContextCoordinates(parent.Parent);

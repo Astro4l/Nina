@@ -3,6 +3,11 @@
 If N.I.N.A. helps you in your journey for amazing deep sky images, please consider a donation. Each backer will help keeping the project alive and active.  
 More details at <a href="https://nighttime-imaging.eu/donate/" target="_blank">nighttime-imaging.eu/donate/</a>
 
+# Version 2.1.1
+
+## Important Changes
+- Rotation values in N.I.N.A. are now displayed in counter clockwise notation to follow the standard of "East of North of North Celestial Pole" that is used in most astro applications. Templates, Targets and other saved items in previous versions will be auto migrated to this adjusted approach.
+
 # Version 2.1
 
 ## Bugfixes
