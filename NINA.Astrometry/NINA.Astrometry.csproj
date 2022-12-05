@@ -136,6 +136,7 @@
     <Compile Include="Body\Earth.cs" />
     <Compile Include="Body\Moon.cs" />
     <Compile Include="Body\Sun.cs" />
+    <Compile Include="Converters\ReverseAngleConverter.cs" />
     <Compile Include="Interfaces\IDeepSkyObject.cs" />
     <Compile Include="MoonInfo.cs" />
     <Compile Include="ObserverInfo.cs" />

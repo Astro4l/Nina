@@ -124,7 +124,7 @@ namespace NINA.PlateSolving.Solvers {
                     if (wcsinfo.ContainsKey("dec_center")) {
                         dec = double.Parse(wcsinfo["dec_center"], CultureInfo.InvariantCulture);
                     }
-                    if (wcsinfo.TryGetValue("orientation_center", out value)) {
+                    if (wcsinfo.TryGetValue("orientation_center", out var value)) {
                         result.PositionAngle = 360 - (180 - double.Parse(value, CultureInfo.InvariantCulture) + 360);
                     }
                     if (wcsinfo.ContainsKey("pixscale")) {
